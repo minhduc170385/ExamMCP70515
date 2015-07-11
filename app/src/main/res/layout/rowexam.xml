@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:text="Question 1 in 67"
+        android:textSize="@dimen/font_size_Question"
+        android:id="@+id/lblTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:text="@string/question"
+        android:textSize="@dimen/font_size_Question"
+        android:id="@+id/lblQuestion" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_marginLeft="15dp">
+
+
+
+        <CheckBox
+            android:id="@+id/cbAnswer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="22dp"
+            android:textSize="@dimen/font_size_Answer"
+            android:text="Question 1" />
+
+        <CheckBox
+            android:id="@+id/cbAnswer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_below="@+id/checkBox1"
+            android:layout_marginTop="22dp"
+            android:textSize="@dimen/font_size_Answer"
+            android:text="Question 2" />
+
+        <CheckBox
+            android:id="@+id/cbAnswer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox2"
+            android:layout_marginTop="24dp"
+            android:textSize="@dimen/font_size_Answer"
+            android:text="Question 13" />
+        <CheckBox
+            android:id="@+id/cbAnswer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_below="@+id/checkBox1"
+            android:layout_marginTop="22dp"
+            android:textSize="@dimen/font_size_Answer"
+            android:text="Question 2" />
+
+        <CheckBox
+            android:id="@+id/cbAnswer5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox2"
+            android:layout_marginTop="24dp"
+            android:textSize="@dimen/font_size_Answer"
+            android:text="Question 13" />
+
+        <CheckBox
+            android:id="@+id/cbAnswer6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox2"
+            android:layout_marginTop="24dp"
+            android:textSize="@dimen/font_size_Answer"
+            android:text="Question 13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:text="@string/question"
+            android:textSize="@dimen/font_size_Explain"
+            android:id="@+id/lblExplain" />
+    </LinearLayout>
+</LinearLayout>
